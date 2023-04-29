@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.verde {
+	background-color: #36e60b;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+
+.vermelho {
+	background-color: #e60b0b;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	border: 2px solid #000;
+}
+
+.btn {
+	background-color: #041b55b4;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid #000;
+	color: #fff;
+}

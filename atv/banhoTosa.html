@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PET SHOP - Banho e Tosa</title>
+    <link rel="stylesheet" href="banhoTosa.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>PET SHOP</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Venda de animais</a></li>
+          <li><a href="#">Doação de animais</a></li>
+          <li><a href="#">Banho e tosa</a></li>
+          <li><a href="#">Atendimento veterinário</a></li>
+          <li><a href="#">Produtos para animais</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="servico">
+        <h2>Banho e Tosa</h2>
+        <p>Nós oferecemos serviços de banho e tosa para cães e gatos. Os nossos profissionais são treinados e experientes, garantindo que o seu animal de estimação seja tratado com cuidado e carinho.</p>
+      </section>
+      <section class="precos">
+        <h3>Preços</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Serviço</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Banho de cão pequeno</td>
+              <td>R$ 30,00</td>
+            </tr>
+            <tr>
+              <td>Banho de cão médio</td>
+              <td>R$ 40,00</td>
+            </tr>
+            <tr>
+              <td>Banho de cão grande</td>
+              <td>R$ 50,00</td>
+            </tr>
+            <tr>
+              <td>Banho de gato</td>
+              <td>R$ 35,00</td>
+            </tr>
+            <tr>
+              <td>Tosa de cão pequeno</td>
+              <td>R$ 50,00</td>
+            </tr>
+            <tr>
+              <td>Tosa de cão médio</td>
+              <td>R$ 60,00</td>
+            </tr>
+            <tr>
+              <td>Tosa de cão grande</td>
+              <td>R$ 70,00</td>
+            </tr>
+            <tr>
+              <td>Tosa de gato</td>
+              <td>R$ 45,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="formulario">
+        <h3>Agende um horário</h3>
+        <form action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="telefone">Telefone:</label>
+          <input type="text" id="telefone" name="telefone" required>
+
+          <label for="animal">Tipo de animal:</label>
+          <select id="animal" name="animal" required>
+            <option value="">Selecione o tipo de animal</option>
+            <option value="cao">Cão</option>
+            <option value="gato">Gato</option>
+          </select>
+
+          <label for="servico">Serviço:</label>
+          <select id="servico" name="servico" required>
+            <option value="">Selecione o serviço</option>
+            <option value="banho">Banho</option>
+            <option value="tosa">Tosa</option>
+            <option value="banho_e_tosa">Banho e Tosa</option>
+          </select>
+
+          <label for="data">Data:</label>
+          <input type="date" id="data" name="data" required>
+
+          <label for="hora">Hora:</label>
+          <input type="time" id="hora" name="hora" required>
+
+          <input type="submit" value="Agendar">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; PET SHOP - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+node_modules
+
+# Ignorando arquivos/pastas desnecessarios
+*.log
+*.log.*
+*.swp
+*.swo
+*.swn
+
+# Ignorando arquivos/pastas desnecessarios
+.idea
+.vscode
+node_modules
+dist
+coverage
+
+EDITH 
+jarvis
+exe
+Java
+PetSHop
+PT2
+js 

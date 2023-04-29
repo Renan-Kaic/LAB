@@ -1,0 +1,32 @@
+
+/* 0 - Super Admin
+    1 - Administrador {
+        1 - Administrador de Clientes (alunos - convidados)
+        2 - Gerenciador de recursos
+        3 - Gerenciador de usuários (bibliotecários)
+        4 - Gerenciar punições (multas {
+            1 - Multas por atraso   
+            2 - Multas por perda
+            3 - Multas por danos
+            Atribuir, editar, remover
+        }, suspensões {
+            Atribuir, editar, remover
+        })
+    }
+
+    2 - Bibliotecário {
+        1 - Gerenciar recursos { cadastrar, editar, remover }
+        2 - Gerenciar usuários { cadastrar, editar, remover }
+        3 - Gerenciar empréstimos { cadastrar, editar, remover }
+        6 - Gerenciar reservas { cadastrar, editar, remover }
+    }
+
+    3 - usuário { 
+        1 - Pedir empréstimos 
+        2 - Pedir reservas
+        3 - Pesquisar recursos
+        4 - Ver histórico de empréstimos
+        5 - Ver histórico de reservas
+        6 - renovar empréstimos
+    }
+*/ 

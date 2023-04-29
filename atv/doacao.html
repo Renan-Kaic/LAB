@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PET SHOP - Doação de Animais</title>
+    <link rel="stylesheet" href="doacao.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>PET SHOP</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Venda de animais</a></li>
+          <li><a href="#">Doação de animais</a></li>
+          <li><a href="#">Banho e tosa</a></li>
+          <li><a href="#">Atendimento veterinário</a></li>
+          <li><a href="#">Produtos para animais</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="formulario">
+        <h2>Formulário de Doação de Animais</h2>
+        <form action="#" method="post">
+          <label for="nome">Nome do Animal:</label>
+          <input type="text" id="nome" name="nome" required>
+
+          <label for="especie">Espécie:</label>
+          <select id="especie" name="especie" required>
+            <option value="">Selecione a espécie</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="passaro">Pássaro</option>
+            <option value="peixe">Peixe</option>
+          </select>
+
+          <label for="raca">Raça:</label>
+          <input type="text" id="raca" name="raca" required>
+
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" required>
+
+          <label for="sexo">Sexo:</label>
+          <label><input type="radio" name="sexo" value="macho" required> Macho</label>
+          <label><input type="radio" name="sexo" value="femea" required> Fêmea</label>
+
+          <label for="porte">Porte:</label>
+          <select id="porte" name="porte" required>
+            <option value="">Selecione o porte</option>
+            <option value="pequeno">Pequeno</option>
+            <option value="medio">Médio</option>
+            <option value="grande">Grande</option>
+          </select>
+
+          <label for="descricao">Descrição:</label>
+          <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+          <label for="contato">Contato:</label>
+          <input type="text" id="contato" name="contato" required>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="endereco">
+        <p>Endereço: Rua Nossa Senhora das Graças, 123 - Centro - São Paulo, SP</p>
+      </div>
+      <div class="telefone">
+        <p>Telefone: (11) 1234-5678</p>
+      </div>
+    </footer>
+  </body>
+</html>

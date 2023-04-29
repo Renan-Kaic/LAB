@@ -1,0 +1,39 @@
+.label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #fff
+
+}
+
+
+.input {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #fff;
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 100vh;
+}
