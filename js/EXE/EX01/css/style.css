@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(142, 141, 141);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TableBox {
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    font-style: bold;
+    line-height: 1.8;
+    /*Como alinhar item display: vertical*/
+}
+.calcu {
+    width: 50vw;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    font-style: bold;
+    line-height: 1.8;
+    border: 10px solid rgb(142, 141, 141);
+}
+
+.calcu input {
+    width: 40vw;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 141, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    font-style: bold;
+    line-height: 1.8;
+    text-align: center;
+
+}
+
+.calcu button {
+    width: 20vw;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(142, 141, 141);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    font-style: bold;
+    line-height: 1.8;
+    background-color: rgb(142, 141, 141);
+    color: rgb(241, 241, 241);
+    margin: 10px;
+}
