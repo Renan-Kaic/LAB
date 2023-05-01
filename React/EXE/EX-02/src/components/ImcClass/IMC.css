@@ -1,0 +1,95 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.container h1 {
+	font-size: 3rem;
+	margin-bottom: 4rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	max-width: 500px;
+}
+
+.form label {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.form input {
+	width: 100%;
+	height: 2.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+	padding: 0 0.5rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.form button {
+	width: 100%;
+	height: 2.5rem;
+	border: 0;
+	border-radius: 0.25rem;
+	background: #1e90ff;
+	color: #fff;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.form button:hover {
+	background: #5aa7f4;
+}
+
+.form button:active {
+	background: #1e90ff;
+}
+
+.form button:focus {
+	outline: none;
+}
+
+.table {
+	width: 50%;
+	max-width: 500px;
+	margin-top: 2rem;
+	border-collapse: collapse;
+}
+
+.table thead {
+	background: #1e90ff;
+	color: #fff;
+}
+
+.table th,
+.table td {
+	padding: 0.5rem;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.table th {
+	font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	max-width: 500px;
+	margin-top: 2rem;
+}

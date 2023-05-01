@@ -1,12 +1,12 @@
 import './App.css'
 import React from 'react'
 
-import TabelaCarros from './components/TabelaCarros/TabelaCarros'
+import ImcClass from './components/ImcClass/ImcClass'
 
 function App() {
 	return (
 		<div className="App">
-			<TabelaCarros />
+			<ImcClass />
 		</div>
 	)
 }
